@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anish Adhikari | Cybersecurity Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Source Sans Pro", "system-ui", "sans-serif"],
+            },
+            colors: {
+              dark: "#0f172a",
+              "dark-light": "#1e293b",
+              accent: "#3b82f6",
+              "accent-light": "#60a5fa",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #e2e8f0;
+      }
+      .section-divider {
+        border-color: #334155;
+      }
+      .skill-tag {
+        transition: all 0.2s ease;
+      }
+      .skill-tag:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+      }
+      .contact-link {
+        transition: all 0.2s ease;
+      }
+      .contact-link:hover {
+        color: #93c5fd;
+        transform: translateY(-1px);
+      }
+      .download-btn {
+        background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        transition: all 0.3s ease;
+      }
+      .download-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px -2px rgba(30, 64, 175, 0.3);
+      }
+    </style>
+  </head>
+  <body class="font-sans bg-dark text-gray-200">
+    <div class="max-w-3xl mx-auto px-6 py-12">
+      <!-- Header -->
+      <header class="mb-16 text-left">
+        <h1 class="text-4xl font-bold text-white mb-2">Anish Adhikari</h1>
+        <p class="text-lg text-accent-light font-medium mb-6">
+          Cybersecurity & Digital Forensics | Network Engineer
+        </p>
+
+        <div class="flex flex-wrap justify-left gap-6 mb-8">
+          <a
+            href="mailto:anishadhikari1000@gmail.com"
+            class="contact-link flex items-center text-gray-300"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path>
+            </svg>
+            Email
+          </a>
+          <a
+            href="tel:9842077683"
+            class="contact-link flex items-center text-gray-300"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+              ></path>
+            </svg>
+            Phone
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anish-adhikari-a115aa2b4/"
+            class="contact-link flex items-center text-gray-300"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+              ></path>
+            </svg>
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/anishadhikari10"
+            class="contact-link flex items-center text-gray-300"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            GitHub
+          </a>
+          <a
+            href="media/ANISHCV.pdf"
+            class="contact-link flex items-center text-gray-300"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              ></path>
+            </svg>
+            Resume
+          </a>
+        </div>
+      </header>
+
+      <!-- Summary Section -->
+      <section class="mb-16">
+        <h2
+          class="text-2xl font-semibold text-white mb-6 pb-2 border-b section-divider"
+        >
+          About
+        </h2>
+        <p class="text-gray-300 leading-relaxed text-lg">
+          Cybersecurity student with a strong understanding of operating systems
+          and network security. Skilled in analyzing system vulnerabilities and
+          eager to apply theoretical knowledge to practical scenarios.
+          Passionate about learning and contributing to creating secure and
+          reliable digital environments.
+        </p>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="mb-16">
+        <h2
+          class="text-2xl font-semibold text-white mb-6 pb-2 border-b section-divider"
+        >
+          Experience
+        </h2>
+
+        <div class="mb-10">
+          <div
+            class="flex flex-col md:flex-row md:justify-between md:items-start mb-4"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-white">
+                Junior Network Engineer
+              </h3>
+              <p class="text-accent-light font-medium">
+                Insight Technology Pvt. Ltd.
+              </p>
+            </div>
+            <span class="text-gray-400 md:mt-1"
+              >June 2025 – September 2025</span
+            >
+          </div>
+
+          <ul class="text-gray-300 space-y-3 ml-2">
+            <li class="flex items-start">
+              <span class="text-accent mr-2 mt-1">•</span>
+              Configured and managed network security devices including Sophos
+              and FortiGate firewalls, as well as Access Points from Ubiquiti,
+              Cambium, and MikroTik.
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2 mt-1">•</span>
+              Installed VMware and Ubuntu on a Dell server to set up virtualized
+              and secure computing environments.
+            </li>
+            <li class="flex items-start">
+              <span class="text-accent mr-2 mt-1">•</span>
+              Installed and configured Windows Server, managed Active Directory,
+              created users, and implemented Group Policy Objects (GPOs).
+            </li>
+          </ul>
+
+          <div class="flex flex-wrap gap-2 mt-6">
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >Firewalls</span
+            >
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >Active Directory</span
+            >
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >VMware</span
+            >
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >Ubuntu</span
+            >
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >Windows Server</span
+            >
+            <span
+              class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+              >GPO</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="mb-16">
+        <h2
+          class="text-2xl font-semibold text-white mb-6 pb-2 border-b section-divider"
+        >
+          Education
+        </h2>
+
+        <div>
+          <div
+            class="flex flex-col md:flex-row md:justify-between md:items-start mb-2"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-white">
+                Bachelor's in Cybersecurity and Digital Forensics
+              </h3>
+              <p class="text-accent-light font-medium">
+                University of West England
+              </p>
+            </div>
+            <span class="text-gray-400">October 2024 – Present</span>
+          </div>
+          <p class="text-gray-300">The British College, Kathmandu</p>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section class="mb-16">
+        <h2
+          class="text-2xl font-semibold text-white mb-6 pb-2 border-b section-divider"
+        >
+          Certifications
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-white">
+              ISC² Cybersecurity Certification
+            </h3>
+            <p class="text-gray-300">ISC2</p>
+            <p class="text-gray-500 text-sm mt-1">
+              Exam Passed, Awaiting Certificate
+            </p>
+            
+            <a
+            href="https://www.linkedin.com/posts/anish-adhikari-a115aa2b4_just-a-few-days-ago-passed-my-isc2-cc-examination-activity-7372222650233876480-EXsX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuM7y0BMwCYJrbrLYKuKwHtrSOwOQn72Ro"
+            class="contact-link flex items-center text-gray-300"
+          >
+          View credential
+          </a>
+          </div>
+
+            <div class="p-4">
+            <h3 class="text-lg font-semibold text-white">
+              Pre Security Certificate
+            </h3>
+            <p class="text-gray-300">TryHackMe</p>
+            <p class="text-gray-500 text-sm mt-1">Issued Jul 2025</p>
+             <a
+            href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-13NPN3B0XS.pdf"
+            class="contact-link flex items-center text-gray-300"
+          >
+          View credential
+          </a>
+          </div>
+
+            <div class="p-4">
+            <h3 class="text-lg font-semibold text-white">
+              Introduction to Digital Forensics
+            </h3>
+            <p class="text-gray-300">Security Blue Team</p>
+            <p class="text-gray-500 text-sm mt-1">Issued Feb 2025</p>
+             <a
+            href="https://drive.google.com/file/d/1WqYRlpwxbvdQsGhtx0FqRVORBzfpL6-K/view"
+            class="contact-link flex items-center text-gray-300"
+          >
+          View credential
+          </a>
+          </div>
+            <div class="p-4">
+            <h3 class="text-lg font-semibold text-white">
+             Introduction to Cybersecurity
+            </h3>
+            <p class="text-gray-300">Issued by Cisco</p>
+            <p class="text-gray-500 text-sm mt-1">Issued  Jan 2025</p>
+             <a
+            href="https://www.credly.com/badges/7f7ef97c-a817-495d-ae72-0f2aab7b5143/"
+            class="contact-link flex items-center text-gray-300"
+          >
+          View credential
+          </a>
+          </div>
+
+            <div class="p-4">
+            <h3 class="text-lg font-semibold text-white">Networking Basics</h3>
+            <p class="text-gray-300">Issued by Cisco</p>
+            <p class="text-gray-500 text-sm mt-1">Issued Jan 2025</p>
+             <a
+            href="https://www.credly.com/badges/d9a92153-7579-4a10-a7d1-ac8801dcc9af/"
+            class="contact-link flex items-center text-gray-300"
+          >
+          View credential
+          </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="mb-16">
+        <h2
+          class="text-2xl font-semibold text-white mb-6 pb-2 border-b section-divider"
+        >
+          Skills
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-lg font-semibold mb-4 text-white">Technical</h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Windows</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Linux</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Python</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >C++</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Virtualization</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Cloud Services</span
+              >
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4 text-white">Professional</h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Problem-solving</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Analytical Thinking</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Teamwork</span
+              >
+              <span
+                class="skill-tag bg-dark-light text-gray-300 px-3 py-1.5 rounded-md text-sm border border-gray-700"
+                >Time Management</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="pt-8 border-t section-divider text-center text-gray-500">
+        <p>© 2025 Anish Adhikari. All rights reserved.</p>
+        <p class="text-sm mt-1">Lokanthali, Bhaktapur</p>
+      </footer>
+    </div>
+  </body>
+</html>
